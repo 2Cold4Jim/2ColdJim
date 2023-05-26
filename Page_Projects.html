@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" type="image/x-icon" href="logo_fav.ico" />
+	<title>Projects</title>
+	<style>
+
+		body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin: 0;
+			background-color: #282926;
+		}
+
+        .button {
+            background-color: #4a5a59 border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: transform 0.2s;
+            font-size: 40px;
+        }
+
+			.button:hover {
+				transform: translate(5px, -5px);
+				text-decoration: underline;
+			}
+
+		.HomeMenu {
+			position: absolute;
+			left: 60%;
+			right: 50%;
+			up: 50%;
+			down: 50%;
+			transition: 0.15s;
+			text-decoration: none;
+			font-size: 40px;
+			color: white;
+			border-radius: 7px 7px 7px 7px;
+		}
+
+			.HomeMenu:hover {
+				left: 59.5%;
+				text-decoration: underline;
+			}
+        #Home {
+            top: 95px;
+            background-color: #7C9695;
+        }
+	</style>
+</head>
+
+<HomeMenu class="HomeMenu" onclick="location.href='Page_Home.html'" id="Home"><strong>\\\</strong></HomeMenu>
+<body>
+<h2 style="text-align:center;text-decoration: underline;font-family:tahoma;font-weight: bold;font-size:55px;color:white;">My Projects</h2>
+<br>
+<br>
+
+<div class="textbox">
+	<pre style="text-align:center;font-size:16px;color:white;">
+    Current Projects/Past Projects
+    </pre>
+
+
+</div>
+<br>
+
+<button class="button" onclick="location.href='https://ronson.booth.pm/'">Vriod Models</button>
+<button class="button" onclick="location.href='page2.html'">Discord Bot</button>
+<button class="button" onclick="location.href='page3.html'">Game</button>
+<p style="text-align:center;color:white;">You can find my youtube channel <a href="https://www.youtube.com/channel/UCM94eFVZfJfRwPIMlhUl94w" target="_blank" rel="noopener noreferrer">here.</a></p>
+</body>
+
+</html>
