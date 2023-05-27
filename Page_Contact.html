@@ -23,7 +23,7 @@
             background-color: #4a5a59;
             border: 5px solid lightgray;
             border-radius: 5px 5px 5px 5px;
-            min-height: 200px;
+            min-height: 310px; /* Change this value to make room for social icons */
         }
 
         .HomeMenu {
@@ -43,6 +43,7 @@
                 left: 59.5%;
                 text-decoration: underline;
             }
+
         #Home {
             top: 95px;
             background-color: #7C9695;
@@ -64,7 +65,7 @@
 
         #YT {
             left: 44%;
-            top: 295px;
+            top: 425px; /* Change to adjust with text box fitting */
         }
 
 
@@ -84,7 +85,7 @@
 
         #TT {
             left: 49%;
-            top: 295px;
+            top: 425px; /* Change to adjust with text box fitting */
         }
 
 
@@ -104,7 +105,7 @@
 
         #INSTA {
             left: 54%;
-            top: 295px;
+            top: 425px; /* Change to adjust with text box fitting */
         }
         }
     </style>
@@ -112,19 +113,31 @@
 
 
 
-
+<!--Menu button outside of flex body-->
 <HomeMenu class="HomeMenu" onclick="location.href='Page_Home.html'" id="Home"><strong>\\\</strong></HomeMenu>
-
-
 <br>
 <br>
-
 <body>
+    <!--Header-->
     <h2 style="text-align:center;text-decoration: underline;font-family:tahoma;font-weight: bold;font-size:55px;color:white;">Contact me</h2>
     <div class="textbox">
+        <!--Text-->
         <pre style="text-align:center;font-size:16px;color:white;">
-If you desire a copy of my resume, please enter your email here:
+If you desire a copy of my resume, please enter your name and email here:
+</pre>
+        <!--Email Action-->
+        <form action="mailto:someone@example.com" style="text-align:center;font-size:16px;color:white;" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name"><br>
+            E-mail:<br>
+            <input type="text" name="mail">
+            <br>
+            <br>
+            <input type="submit" value="Send">
+        </form>
 
+        <!--Text Pt2-->
+<pre style="text-align:center;font-size:16px;color:white;">
 and I will be in contact with you as soon as possible.
 
 You can also find me on these social medias
