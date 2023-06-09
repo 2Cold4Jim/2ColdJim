@@ -50,64 +50,28 @@
             background-color: #7C9695;
         }
 
-        #mySidenavYT a {
-            position: absolute;
-            transition: 0.15s;
-            text-decoration: none;
-            font-size: 40px;
-            color: white;
-            border-radius: 7px 7px 7px 7px;
+        .soicalPb{
+            display: flex;
+            align-items: center;
+            width: 20%;
         }
-
-            #mySidenavYT a:hover { /* Youtube logo button */
-                left: 43.7%;
-                background-color: #425150;
-            }
-
-        #YT {
-            left: 44%;
-            top: 325px; /* Change to adjust with text box fitting */
+        .soicalCb{
+          flex:1;
+          transition: 0.15s;
+          text-decoration: none;
+          font-size: 40px;
+          color: white;
+          border-radius: 7px 7px 7px 7px;
+          margin-right: 50px;
+          margin-left: 60px;
         }
-
-
-        #mySidenavTi a { /*Twitter logo button */
-            position: absolute;
-            transition: 0.15s;
-            text-decoration: none;
-            font-size: 40px;
-            color: white;
-            border-radius: 7px 7px 7px 7px;
+        .soicalCb:first{
+          margin-right: 50px;
+          margin-left: 50px;
         }
-
-            #mySidenavTi a:hover {
-                left: 48.7%;
-                background-color: #425150;
-            }
-
-        #TT {
-            left: 49%;
-            top: 325px; /* Change to adjust with text box fitting */
-        }
-
-
-        #mySidenavInti a { /*Instagram logo button */
-            position: absolute;
-            transition: 0.15s;
-            text-decoration: none;
-            font-size: 40px;
-            color: white;
-            border-radius: 7px 7px 7px 7px;
-        }
-
-            #mySidenavInti a:hover {
-                left: 53.7%;
-                background-color: #425150;
-            }
-
-        #INSTA {
-            left: 54%;
-            top: 325px; /* Change to adjust with text box fitting */
-        }
+        .soicalCb:hover { /* Youtube logo button */
+            transform: translate(-5px, 0px);
+            background-color: #425150;
         }
     </style>
 </head>
@@ -120,35 +84,32 @@
     <h2 style="text-align:center;text-decoration: underline;font-family:tahoma;font-weight: bold;font-size:55px;color:white;">Contact me</h2>
     <div class="textbox">
         <pre style="text-align:center;font-size:16px;color:white;">
-If you desire a copy of my resume, please contact me through
-one of my social media accounts or this Discord account
-    Challenged Marine#0286
+If you desire a copy of my resume,
+please contact me through one of my social media accounts
 and I will be in contact with you as soon as possible.
 
 List of currently held social medias accounts:
    </pre>
 
-<br>
-        <div id="mySidenavYT" class="sidenav">
-            <a href="https://www.youtube.com/channel/UCM94eFVZfJfRwPIMlhUl94w" id="YT" target="_blank" rel="noopener noreferrer">
-                <img src="yti.png" alt="Youtube" STYLE="width:50px; height:50px"><!--Youtube-->
-            </a>
-        </div>
-        <div id="mySidenavTi" class="sidenav">
-            <a href="https://twitter.com/2ColdJim" id="TT" target="_blank" rel="noopener noreferrer">
-                <img src="Ti.png" alt="Tiwt" STYLE="width:50px; height:50px"><!--Twitter-->
-            </a>
-        </div>
-        <div id="mySidenavInti" class="sidenav">
-            <a href="IntsaGood.png" id="INSTA" target="_blank" rel="noopener noreferrer">
-                <img src="Inti.png" alt="Instagram" STYLE="width:48.5px; height:48.5px"><!--Instagram-->
-            </a>
-        </div>
 
+<div class="soicalPb">
+  <div class="soicalCb YT">
+    <a href="https://www.youtube.com/channel/UCM94eFVZfJfRwPIMlhUl94w" id="YT" target="_blank" rel="noopener noreferrer">
+        <img src="yti.png" alt="Youtube" STYLE="width:50px; height:50px"><!--Youtube-->
+    </a>
+  </div>
+  <div class="soicalCb TWIT">
+    <a href="https://twitter.com/2ColdJim" id="TT" target="_blank" rel="noopener noreferrer">
+        <img src="Ti.png" alt="Tiwt" STYLE="width:50px; height:50px"><!--Twitter-->
+    </a>
+  </div>
+  <div class="soicalCb INTSA">
+    <a href="IntsaGood.png" id="INSTA" target="_blank" rel="noopener noreferrer">
+        <img src="Inti.png" alt="Instagram" STYLE="width:48.5px; height:48.5px"><!--Instagram-->
+    </a>
+  </div>
+</div>
 
-    </div>
-    </div>
-    <br>
     <p style="text-align:center;color:white;">You can find my youtube channel <a href="https://www.youtube.com/channel/UCM94eFVZfJfRwPIMlhUl94w" target="_blank" rel="noopener noreferrer">here.</a></p>
 </body>
 </html>
