@@ -26,42 +26,41 @@
 		}
 
 		.HomeMenu {
-			position: absolute;
-			left: 70%;
-			right: 50%;
-			up: 50%;
-			down: 50%;
-			transition: 0.15s;
-			text-decoration: none;
-			font-size: 40px;
-			color: white;
-			border-radius: 7px 7px 7px 7px;
+				display: flex;
+				margin-left: 40%;
+				width: 10%;
+				height: 10%;
+				transition: 0.15s;
+				text-decoration: none;
+				font-size: 40px;
+				color: white;
+				border-radius: 7px 7px 7px 7px;
 		}
 
-			.HomeMenu:hover {
-				left: 69.5%;
-				text-decoration: underline;
-			}
-        #Home {
-            top: 115px;
-            background-color: #7C9695;
-        }
+				.HomeMenu:hover {
+						transform: translate(-5px, 0px);
+						text-decoration: underline;
+				}
+
+		.Home {
+				flex:1;
+				background-color: #7C9695;
+		}
 	</style>
 </head>
-<HomeMenu class="HomeMenu" onclick="location.href='index.html'" id="Home"><strong>\\\</strong></HomeMenu>
 <body>
 
 <h2 style="text-align:center;text-decoration: underline;font-family:tahoma;font-weight: bold;font-size:55px;color:white;">About me</h2>
+<HomeMenu class="HomeMenu" onclick="location.href='index.html'" id="Home"><strong>\\\</strong></HomeMenu>
 <br>
 <br>
 
 <div class="textbox">
 	<pre style="text-align:center;font-size:16px;color:white;">
 Welcome to my small humble website.
-Usally go by Jim online
-I enjoy very light programming, and video editing.
+Usally go by Jim online, and I enjoy very light programming, and video editing.
 I hope to create projects that can help others out.
-Hopefully you found whatever you were looking for here.
+Hopefully this website was useful in whatever you were looking for.
    </pre>
 </div>
 <br>

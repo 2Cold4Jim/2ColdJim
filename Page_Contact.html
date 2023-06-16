@@ -28,11 +28,10 @@
         }
 
         .HomeMenu {
-            position: absolute;
-            left: 70%;
-            right: 50%;
-            up: 50%;
-            down: 50%;
+            display: flex;
+            margin-left: 40%;
+            width: 10%;
+            height: 10%;
             transition: 0.15s;
             text-decoration: none;
             font-size: 40px;
@@ -41,29 +40,30 @@
         }
 
             .HomeMenu:hover {
-                left: 69.5%;
+                transform: translate(-5px, 0px);
                 text-decoration: underline;
             }
 
-        #Home {
-            top: 115px;
+        .Home {
+            flex:1;
             background-color: #7C9695;
         }
 
         .soicalPb{
             display: flex;
             align-items: center;
-            width: 20%;
+            width: 10%;
+            height: 10%;
         }
         .soicalCb{
           flex:1;
           transition: 0.15s;
           text-decoration: none;
-          font-size: 40px;
+          font-size: 10px;
           color: white;
           border-radius: 7px 7px 7px 7px;
           margin-right: 50px;
-          margin-left: 60px;
+          margin-left: 50px;
         }
         .soicalCb:first{
           margin-right: 50px;
@@ -77,11 +77,12 @@
 </head>
 
 <!--Menu button outside of flex body-->
-<HomeMenu class="HomeMenu" onclick="location.href='index.html'" id="Home"><strong>\\\</strong></HomeMenu>
-<br>
-<br>
+
+
 <body>
     <h2 style="text-align:center;text-decoration: underline;font-family:tahoma;font-weight: bold;font-size:55px;color:white;">Contact me</h2>
+    <HomeMenu class="HomeMenu" onclick="location.href='index.html'" id="Home"><strong>\\\</strong></HomeMenu>
+    <br>
     <div class="textbox">
         <pre style="text-align:center;font-size:16px;color:white;">
 If you desire a copy of my resume,
@@ -90,7 +91,6 @@ and I will be in contact with you as soon as possible.
 
 List of currently held social medias accounts:
    </pre>
-
 
 <div class="soicalPb">
   <div class="soicalCb YT">
