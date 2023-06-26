@@ -49,6 +49,7 @@
 				flex:1;
 				background-color: #7C9695;
 		}
+
 	</style>
 </head>
 <body>
@@ -57,41 +58,91 @@
 <HomeMenu class="HomeMenu" onclick="location.href='index.html'" id="Home"><strong>\\\</strong></HomeMenu>
 <br>
 <br>
+		<div class="textbox">
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
+		To set up your Discord bot follow this step-by-step guide:
+		Login into the discord developer page with your discord account
+		<a href="https://discord.com/developers/" target="_blank" rel="noopener noreferrer">here.</a>
+		Go to application
+		</p>
+		<img src="./imgs/D1.png" STYLE="width:30vw; height: auto; align-items: center; justify-content: center;">
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
+		And then click on New application
+		Give your discord bot a name and create
+		</p>
+		<img src="./imgs/D2.png" STYLE="width:20vw; height: auto;">
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
+		Now in the General Information, you can give your bot a profile image
+		Description and other identifying factors.
+		Now we need to find the bot's token, so go to the Bot section under settings
+		And there should be a Token reset button if you don’t already have your token
+		</p>
+		<img src="./imgs/D3.jpg" STYLE="width:30vw; height: auto;">
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
+		Press the reset token button
+		And it will give you your new token
+		</p>
+		<img src="./imgs/D4.png" STYLE="width:25vw; height: auto;">
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
+		Copy this and put it somewhere not public on your device
+		I create a new text file and paste it there usually
+		Now before we start writing code for our Bot, let's add it to our server while we are still
+		In the developer portal, head to the OAuth2 section under the settings and select URL Generator.
+		</p>
+		<img src="./imgs/D5.png" STYLE="width:25vw; height: auto;">
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
+		Select bot as our scope
+		</p>
+		<img src="./imgs/D6.png" STYLE="width:25vw; height: auto;">
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
+		And then select the permissions you want the bot to be given.
+		And copy the generated URL into your browser to invite the bot to your server.
+		</p>
+		<img src="./imgs/D7.jpg" STYLE="width:25vw; height: auto;">
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
+		And now the bot is in your server, now let's set up how the bot operates
+		To write code for our Discord bot we need to install Visual Studio Code and Discord.js.
+		Go <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">here.</a>
+		to install visual studio. All parameters can be left at their default values during installation.
+		Once visual studio is installed we want to create a folder on our desktop to store our Discord bots files.
+		Once those folders are created start the visual studio, and open the folder.
+		</p>
+		<img src="./imgs/D8.png" STYLE="width:25vw; height: auto;">
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
+		Then open up the terminal by going to
+		View - Terminal.
+		</p>
+		<img src="./imgs/D9.png" STYLE="width:25vw; height: auto;">
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
+		Once the Terminal is open paste this code into the terminal
+		</p>
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:#28b463;">
+		<strong>npm init</strong>
+		</p>
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
+		You can leave the default values and just press Enter for each item.
+		Now let's install the package.json and discord.js
+		paste this code into the terminal:
+		</p>
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:#28b463;">
+		<strong>npm init install</strong></p>
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:#28b463;">
+		<strong>npm install discord.js</strong></p>
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
+		Now that everything is installed, now is time to start writing our code.
+		Create a file called index.js inside the folder.
+		(.js files are files that contain JavaScript code for execution)
+		You can use visual studio to write code or use other alternatives like Atom.
+		Whenever you want to run the code for your bot to work, just paste this into the terminal:
+		node index.js
+		</p>
+		<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
+		I won’t give you an outline of what code you can write for your bot.
+		But you want to use some of the public code I’ve created for discord bots
+		You can check them out here:
+		</p>
 
-<div class="textbox">
-	<p style="text-align:center;font-size:calc(8px + 0.8vw);color:white;">
-Under construction atm 6/25/23
- </p>
-<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
-  To set up your Discord bot follow this step-by-step guide:
-  Login into the discord developer page with your discord account
-<a href="https://discord.com/developers/" target="_blank" rel="noopener noreferrer">here.</a>
-Go to application
-</p>
-<img src="./imgs/D1.png" STYLE="width:30vw; height:30vh; align-items: center; justify-content: center;">
-<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
-And then click on New application
-Give your discord bot a name and create
-</p>
-<img src="./imgs/D2.png" STYLE="width:20vw; height:30vh;">
-<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
-Now in the General Information, you can give your bot a profile image
-Description and other identifying factors.
-Now we need to find the bot's token, so go to the Bot section under settings
-And there should be a Token reset button if you don’t already have your token
-</p>
-<img src="./imgs/D3.png" STYLE="width:30vw; height:30vh;">
-<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
-Press the reset token button
-And it will give you your new token
-</p>
-<img src="./imgs/D4.png" STYLE="width:25vw; height:30vh;">
-<p class="demo-1" style="text-align:center;font-size:calc(8px + 0.6vw);color:white;">
-Copy this and put it somewhere not public on your device
-I create a new text file and paste it there usually
-Now before we start writing code for our Bot, let's add it to our server while we are still
-In the developer portal, head to the OAuth2 section under the settings and select URL Generator.
-</p>
+
 </div>
 <br>
 <p style="text-align:center;color:white;">You can find my youtube channel <a href="https://www.youtube.com/channel/UCM94eFVZfJfRwPIMlhUl94w" target="_blank" rel="noopener noreferrer">here.</a></p>
